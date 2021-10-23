@@ -32,7 +32,7 @@ public class UserService {
 		User usertoSave = userMapper.toModel(userDTO);
 
 		User savedUser = userRepository.save(usertoSave);
-		return createdMessageResponse(savedUser.getId(), "Created user with Id");
+		return createdMessageResponse(savedUser.getId(), "User created successfully");
 
 	}
 
@@ -57,7 +57,7 @@ public class UserService {
 
 		User usertoUpdate = userMapper.toModel(userDTO);
 		User updateUser = userRepository.save(usertoUpdate);
-		return createdMessageResponse(updateUser.getId(), "Update user with Id");
+		return createdMessageResponse(updateUser.getId(), "User updated sucessfully");
 
 	}
 

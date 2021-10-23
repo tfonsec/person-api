@@ -13,7 +13,7 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.br.CPF;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -41,7 +41,7 @@ public class UserDTO {
 	@CPF
 	private String cpf;
 
-	//@JsonFormat(pattern = "dd-MM-yyyy", shape = JsonFormat.Shape.STRING)
+	
 	@NotNull
 	private String birthDate;
 

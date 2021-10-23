@@ -1,6 +1,6 @@
 package com.one.digitalinnovation.personapi.dto;
 
-import java.io.Serializable;
+
 
 
 import javax.persistence.EnumType;
