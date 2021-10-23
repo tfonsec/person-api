@@ -18,6 +18,7 @@ Projeto desenvolvido durante o bootcamp GFT com arquitetura Rest com as opereç�
 ## Implantação em produção
 
 - Back end: Heroku
+- https://app-gft-personapi.herokuapp.com/
 
 # Como executar o projeto
 
